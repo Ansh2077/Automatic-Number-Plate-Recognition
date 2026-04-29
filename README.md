@@ -1,3 +1,12 @@
+## Acknowledgment
+This project is adapted from an open-source ANPR implementation. I worked on understanding the pipeline and made several improvements.
+
+## Enhancements
+- Improved image preprocessing for better plate detection
+- Refined contour filtering to reduce false positives
+- Optimized OCR output by cleaning and validating detected text
+- Enhanced overall system performance and robustness
+
 # Automatic Number Plate Recognition (ANPR)
 Automatic Number Plate Recognition (ANPR) is a system capable of reading vehicle number plates without human intervention through the use of high speed image capture with supporting illumination, detection of characters within the images provided, verification of the character sequences as being those from a vehicle license plate, character recognition to convert image to text; so ending up with a set of metadata that identifies an image containing a vehicle license plate and the associated decoded text of that plate.
 
